@@ -1,0 +1,60 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgb(245, 248, 250) ;
+}
+
+
+
+
+h3{
+  font-size:70px;
+  margin: 50px;
+  font-family: sans-serif;
+}
+
+h2{
+  font-size: 110px;
+  margin-left:45px;
+}
+
+img{
+  height: 190px;
+  width: 390px;
+  
+}
+
+.img1{
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+footer{
+  color:blue;
+  text-align: right;
+  margin-top: 70px;
+}
+
+footer a:hover{
+  background-color: red;
+  color: white;
+  cursor: progress;
+  display: inline-block;
+  text-align: right;
+  text-decoration: underline;
+  
+}
+
+
+
+@media (max-width: 680px) {
+  h2,h3,p,b,footer,img {
+    width: 100px;
+  }
+}
